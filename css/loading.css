@@ -174,3 +174,17 @@ li:nth-child(4) {
 		transform: rotate(-180deg);
 	}
 }
+
+p {
+	color: white;
+}
+
+a {
+	text-decoration: underline;
+	color: aqua;
+}
+
+a:hover {
+	color: rgb(224, 17, 231);
+	cursor: pointer;
+}
