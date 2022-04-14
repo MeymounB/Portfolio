@@ -1,0 +1,27 @@
+#first {}
+
+#profile_img {
+
+	min-width: 150px;
+	max-width: 300px;
+
+	min-height: 150px;
+	max-height: 300px;
+
+	border: 15px solid cyan;
+	border-radius: 50%;
+}
+
+#nav {}
+
+#bar {
+	width: 500px;
+}
+
+#downloard {
+	width: 200px;
+}
+
+#minidownload {
+	width: 30px;
+}
