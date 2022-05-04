@@ -17,7 +17,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
 $to = 'boualaoui.meymoun.icn@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Formulaire de Contact du Website :  $name";
+$email_subject = "Message du SiteWeb :  $name";
 $email_body = "Vous avez reçu un nouveau message en provenance du formulaire de votre site Web.\n\n"."Voici les détails:\n\nNom: $name\n\nEmail: $email_address\n\nTéléphone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@meymounboualaoui.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
