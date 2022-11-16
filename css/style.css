@@ -13,7 +13,7 @@ body {
 }
 
 
-p {
+.text {
 	font-size: 20vh;
 	font-family: myfont;
 	color: inherit;
@@ -21,7 +21,7 @@ p {
 	background: transparent;
 }
 
-p {
+.text {
 	background:
 		linear-gradient(to right, rgb(233, 235, 235), rgb(0, 0, 0)),
 		linear-gradient(to right, rgb(0, 255, 34), rgba(255, 0, 180, 1), rgb(0, 255, 255), rgb(174, 0, 255));
@@ -31,7 +31,11 @@ p {
 	transition: background-size 400ms;
 }
 
-p:hover,
-p:focus {
+.text:hover,
+.text:focus {
 	background-size: 0 0.1em, 100% 0.1em;
+}
+
+[class*="text"] {
+	font-size: x-large;
 }
