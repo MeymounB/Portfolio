@@ -1,11 +1,37 @@
 @use './utils/index' as vars;
 
+.imgContainer {}
+
 header {
 	height: vars.rem(120);
 	width: 100%;
 	background-color: red;
 
+	padding: vars.rem(40);
 
+	// display: grid;
+	// grid-template-columns: repeat(5, 1fr);
+	// grid-template-rows: repeat(3, 1fr);
+	// grid-column-gap: 0px;
+	// grid-row-gap: 0px;
+
+	@include vars.flexer(center, space-between, row);
+
+	.logo {
+		grid-area: 2 / 1 / 3 / 2;
+	}
+
+	nav {
+		grid-area: 2 / 3 / 3 / 6;
+
+		ul {
+
+			@include vars.flexer(center, center, row);
+			gap: vars.rem(20);
+
+			li {}
+		}
+	}
 
 }
 
