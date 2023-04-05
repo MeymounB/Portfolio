@@ -1,4 +1,4 @@
-header, header nav ul {
+header, header nav ul, .home .SideNavBar ul {
   display: flex;
 }
 
@@ -57,7 +57,15 @@ header nav ul {
   align-items: center;
   align-content: center;
   justify-content: center;
-  height: 50vh;
+  height: 120vh;
+}
+.home .SideNavBar {
+  position: sticky;
+}
+.home .SideNavBar ul {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .home .text {
   font-size: 10vw;

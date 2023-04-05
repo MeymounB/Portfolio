@@ -35,14 +35,21 @@ header {
 
 }
 
-.SideNavBar {}
-
 .home {
 	display: flex;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	height: 50vh;
+	height: 120vh;
+
+	.SideNavBar {
+
+		position: sticky;
+
+		ul {
+			@include vars.flexer(center, center, column);
+		}
+	}
 
 	.text {
 		font-size: 10vw;
