@@ -6,11 +6,23 @@
   box-sizing: border-box;
 }
 
+a {
+  transition: font-size 0.5s;
+}
+
+a:hover {
+  font-size: large;
+}
+
 body {
   color: #fff;
   background: linear-gradient(#bf9469, #954f36);
   font-family: "Fira Code", monospace;
-  cursor: none;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .section__padding {
@@ -196,11 +208,6 @@ a {
   margin-left: 1rem;
 }
 
-.line {
-  border-bottom: 1px solid #fff;
-  margin: 2rem 6rem 0 6rem;
-}
-
 @media screen and (max-width: 900px) {
   .line {
     margin: 2rem 5rem 0 5rem;
@@ -291,20 +298,31 @@ hr {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  gap: 1rem;
+
+  border-top: 1px solid #fff;
+  margin: 2rem 6rem 0 6rem;
+  padding: 2rem 0;
 }
 
 footer p {
   text-align: center;
 }
 
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
 /* CURSOR */
 
-#cursor {
+/* #cursor {
   position: fixed;
   border: 3px solid #228b22;
   border-radius: 50%;
@@ -319,7 +337,7 @@ footer p {
 img,
 a {
   cursor: none;
-}
+} */
 
 @media screen and (max-width: 1550px) {
   .header__top {

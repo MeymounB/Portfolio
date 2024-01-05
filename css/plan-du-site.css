@@ -1,0 +1,48 @@
+body {
+  gap: 20px;
+}
+
+.site-map-container {
+  display: flex;
+  justify-content: center;
+}
+.site-map,
+.site-map ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-map li {
+  margin-left: 1.5rem;
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.site-map .jump {
+  margin-left: 3rem;
+
+  margin-top: 1rem;
+}
+
+.site-map li:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+}
+
+.site-map li:last-child:before {
+  height: 50%;
+}
+
+.folder:before,
+.file:before {
+  content: "\f07b"; /* FontAwesome folder icon */
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+.file:before {
+  content: "\f15b"; /* FontAwesome file icon */
+}
