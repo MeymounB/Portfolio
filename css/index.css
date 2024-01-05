@@ -10,6 +10,7 @@ body {
   color: #fff;
   background: linear-gradient(#bf9469, #954f36);
   font-family: "Fira Code", monospace;
+  cursor: none;
 }
 
 .section__padding {
@@ -257,10 +258,6 @@ h2::before {
   gap: 3rem;
 }
 
-/* .projects__cat a {
-  margin-right: 3rem;
-} */
-
 .projects__cat img {
   max-width: 400px;
   aspect-ratio: 16/9;
@@ -279,6 +276,15 @@ h2::before {
 .activities-description {
   font-size: 22px;
   margin-top: 1rem;
+}
+
+hr {
+  width: 20%;
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin-left: 0;
+  margin-top: 2rem;
 }
 
 /* FOOTER */
@@ -300,14 +306,14 @@ footer p {
 
 #cursor {
   position: fixed;
-  border: 2px solid #57e890;
+  border: 3px solid #228b22;
   border-radius: 50%;
   width: 30px;
   height: 30px;
   pointer-events: none;
   transition: transform 0.1s, opacity 0.1s;
   transform: translate(-50%, -50%);
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 img,
