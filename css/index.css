@@ -314,7 +314,7 @@ footer p {
 
 footer div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
