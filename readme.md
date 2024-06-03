@@ -1,14 +1,20 @@
-# ✨ Check my Portfolio in Three.js ✨
+# ✨ My Portfolio in Three.js ✨
 
 I developed my personal portfolio using Three.js to showcase my projects and skills. The portfolio features an interactive 3D environment, providing a unique and engaging way for visitors to explore my work. The content displayed on the computer screen within the 3D environment is generated using an iFrame, which is created with basic HTML and CSS. Below is a screenshot of the site.
-
-The github repository you are currently seeing is just the iFrame that I use for my personnal website, you can see the project at : [https://github.com/MeymounB/Portfolio-ThreeJs](https://github.com/MeymounB/Portfolio-ThreeJs)
 
 ## You can see the result here : [https://meymounboualaoui.fr/](https://meymounboualaoui.fr/)
 
 ![Capture d'écran du site web](/public/siteweb_screen.png)
 
 ---
+
+## The iFrame that I used
+
+The github repository you are currently seeing is just the iFrame that I use for my personnal website, you can see the project at : [https://github.com/MeymounB/Portfolio-ThreeJs](https://github.com/MeymounB/Portfolio-ThreeJs)
+
+You can check the deployed version of the iFrame here : [https://meymounb.github.io/Portfolio/](https://meymounb.github.io/Portfolio/)
+
+![Capture d'écran du site web](/public/iframe_screen.png)
 
 <a href="https://www.w3schools.com/html/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style="width: 40px; height: 40px;" alt="html5"></a>
 <a href="https://www.w3schools.com/css/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style="width: 40px; height: 40px;" alt="css3"></a>
