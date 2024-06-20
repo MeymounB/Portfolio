@@ -20,10 +20,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.signature-container a:visited,
-.signature-container a:link,
-.signature-container a:active,
-.signature-container a:hover {
+.signature a:visited,
+.signature a:link,
+.signature a:active,
+.signature a:hover {
   color: black;
 }
 
